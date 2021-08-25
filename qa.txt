@@ -1,9 +1,9 @@
 ﻿DK_Core : Validation Results
 =========================================
 
-err = 2, warn = 16, info = 8
+err = 2, warn = 13, info = 8
 IG Publisher Version: 1.1.77
-Generated Mon Aug 16 14:38:01 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = http://hl7.dk/fhir/core)
+Generated Wed Aug 25 13:20:34 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = http://hl7.dk/fhir/core)
 
  Build Errors : 1 / 6 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-administrative-gender-supplement : 0 / 0 / 2
@@ -17,7 +17,7 @@ Generated Mon Aug 16 14:38:01 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-cor
  /github/workspace/fsh-generated/resources/NamingSystem-sor : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Patient-283 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-bubber : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/Patient-mogensen : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Patient-mogensen : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Patient-ukendt : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-RegionalSubDivisionCodes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier : 0 / 1 / 1
@@ -29,7 +29,7 @@ Generated Mon Aug 16 14:38:01 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-cor
  /github/workspace/fsh-generated/resources/ValueSet-dk-core-MunicipalityCodes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-dk-core-RegionalSubDivisionCodes : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-dk-core-cpr-identifier-system : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/ValueSet-dk-marital-status : 0 / 3 / 3
+ /github/workspace/fsh-generated/resources/ValueSet-dk-marital-status : 0 / 1 / 3
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[22].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
@@ -58,7 +58,6 @@ WARNING: NamingSystem/sor: NamingSystem: nsd-0: 'Name should be usable as an ide
 == /github/workspace/fsh-generated/resources/Patient-bubber.json ==
 INFORMATION: Patient/bubber: Patient.name[1]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
 == /github/workspace/fsh-generated/resources/Patient-mogensen.json ==
-WARNING: Patient/mogensen: Patient.maritalStatus: [Unable to determine whether the provided codes are in the value set http://hl7.dk/fhir/core/ValueSet/dk-marital-status because the value set or code system is not known to the validator]
 INFORMATION: Patient/mogensen: Patient.maritalStatus.coding[0]: Code System URI 'http://hl7.dk/fhir/CodeSystem/dk-marital-status' is unknown so the code cannot be validated
 == /github/workspace/fsh-generated/resources/Patient-ukendt.json ==
 INFORMATION: Patient/ukendt: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
@@ -80,5 +79,3 @@ WARNING: ValueSet/dk-core-cpr-identifier-system: ValueSet: vsd-0: 'Name should b
 WARNING: ValueSet/dk-marital-status: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: ValueSet/dk-marital-status: ValueSet.compose.include[1].concept[0].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: ValueSet/dk-marital-status: ValueSet.compose.include[1].concept[1].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-WARNING: ValueSet/dk-marital-status: ValueSet.compose[0].include[1]: Unknown System specified, so Concepts and Filters can''t be checked
-WARNING: ValueSet.where(id = 'dk-marital-status'): Error from server: Unable to provide support for code system http://hl7.dk/fhir/CodeSystem/dk-marital-status

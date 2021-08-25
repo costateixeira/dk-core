@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="18a5ecdc-b5bd-40bd-b1da-ad67f28d9494"/>
+  <id value="11bc4e2a-3b67-4bd6-aae2-1d1410d2387b"/>
   <meta>
-    <lastUpdated value="2021-08-16T14:37:44.151+00:00"/>
+    <lastUpdated value="2021-08-25T13:20:16.598+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -74,8 +74,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:50b538cf-f664-457a-97c3-cdfcf00e3710"/>
-          <timestamp value="2021-08-16T14:37:55+00:00"/>
+          <identifier value="urn:uuid:e465f294-7f94-4f76-b761-bddbe3449c3a"/>
+          <timestamp value="2021-08-25T13:20:28+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1095,8 +1095,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:ca7d110f-2252-4714-a2d5-fcb079b1c8f9"/>
-          <timestamp value="2021-08-16T14:37:55+00:00"/>
+          <identifier value="urn:uuid:b697ea4c-3236-4be4-9170-503ffae06a62"/>
+          <timestamp value="2021-08-25T13:20:28+00:00"/>
           <total value="104"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1733,8 +1733,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:36f0dd9d-262c-4f60-bedb-03f7522760f3"/>
-          <timestamp value="2021-08-16T14:37:55+00:00"/>
+          <identifier value="urn:uuid:84b7bbeb-fa42-4494-8626-bc0a0560b694"/>
+          <timestamp value="2021-08-25T13:20:28+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1768,6 +1768,332 @@
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes"/>
             <code value="DK-83"/>
             <display value="Region of Southern Denmark"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.dk/fhir/core/ValueSet/dk-marital-status"/>
+    <resource>
+      <ValueSet>
+        <id value="dk-marital-status"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 14 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="http://hl7.org/fhir/R4/valueset-marital-status.html">MaritalStatus v4.0.1 (ValueSet)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html">MaritalStatus v2.0.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-dk-marital-status.html">CodeSystem[http://hl7.dk/fhir/core/CodeSystem/dk-marital-status] v0.9.0 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-NullFlavor.html">NullFlavor v2.0.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-A"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-A">A</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Annulled</td>
+                <td>Marriage contract has been declared null and to not have existed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-D"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-D">D</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Divorced</td>
+                <td>Marriage contract has been declared dissolved and inactive</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-I"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-I">I</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Interlocutory</td>
+                <td>Subject to an Interlocutory Decree.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-L"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-L">L</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Legally Separated</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-M"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-M">M</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Married</td>
+                <td>A current marriage contract is active</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-C"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-C">C</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Common Law</td>
+                <td>a marriage recognized in some jurisdictions and based on the parties&#39; agreement to consider themselves married and can also be based on documentation of cohabitation.
+
+This definition was based on https://www.merriam-webster.com/dictionary/common-law%20marriage.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-P"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-P">P</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Polygamous</td>
+                <td>More than 1 current spouse</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-T"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-T">T</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Domestic partner</td>
+                <td>Person declares that a domestic partner relationship exists.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-U"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-U">U</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>unmarried</td>
+                <td>Currently not in a marriage contract.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-S"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-S">S</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Never Married</td>
+                <td>No marriage contract has ever been entered</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-MaritalStatus-W"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-MaritalStatus.html#v3-MaritalStatus-W">W</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-MaritalStatus</td>
+                <td>Widowed</td>
+                <td>The spouse has died</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-NullFlavor-UNK"> </a>
+                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-UNK">UNK</a>
+                </td>
+                <td>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</td>
+                <td>unknown</td>
+                <td>**Description:**A proper value is applicable, but not known.
+
+**Usage Notes**: This means the actual value is not known. If the only thing that is unknown is how to properly express the value in the necessary constraints (value set, datatype, etc.), then the OTH or UNC flavor should be used. No properties should be included for a datatype with this property unless:
+
+1.  Those properties themselves directly translate to a semantic of &quot;unknown&quot;. (E.g. a local code sent as a translation that conveys &#39;unknown&#39;)
+2.  Those properties further qualify the nature of what is unknown. (E.g. specifying a use code of &quot;H&quot; and a URL prefix of &quot;tel:&quot; to convey that it is the home phone number that is unknown.)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.dk-fhir-core-CodeSystem-dk-marital-status-P"> </a>
+                  <a href="CodeSystem-dk-marital-status.html#dk-marital-status-P">P</a>
+                </td>
+                <td>http://hl7.dk/fhir/core/CodeSystem/dk-marital-status</td>
+                <td>Registered partnership</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.dk-fhir-core-CodeSystem-dk-marital-status-O"> </a>
+                  <a href="CodeSystem-dk-marital-status.html#dk-marital-status-O">O</a>
+                </td>
+                <td>http://hl7.dk/fhir/core/CodeSystem/dk-marital-status</td>
+                <td>Dissolved partnership</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.dk/fhir/core/ValueSet/dk-marital-status"/>
+        <version value="0.9.0"/>
+        <name value="DK Marital Status Codes"/>
+        <title value="DK MaritalStatus"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2019-11-01T09:29:23+11:00"/>
+        <publisher value="HL7 Denmark"/>
+        <contact>
+          <name value="HL7 Denmark"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.dk"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="jenskristianvilladsen@gmail.com"/>
+          </telecom>
+        </contact>
+        <description value="This value set defines the set of codes that can be used to indicate the marital status of a person in Denmark."/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DK"/>
+          </coding>
+        </jurisdiction>
+        <copyright value="CC-BY-SA-4.0"/>
+        <expansion>
+          <identifier value="urn:uuid:2e773c4c-f164-4d52-aeb7-2aeb38a181fd"/>
+          <timestamp value="2021-08-25T13:20:28+00:00"/>
+          <total value="14"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/ValueSet/marital-status|4.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus|2.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|2.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.dk/fhir/core/CodeSystem/dk-marital-status|0.9.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="A"/>
+            <display value="Annulled"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="I"/>
+            <display value="Interlocutory"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="L"/>
+            <display value="Legally Separated"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="C"/>
+            <display value="Common Law"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="P"/>
+            <display value="Polygamous"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="T"/>
+            <display value="Domestic partner"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="U"/>
+            <display value="unmarried"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="S"/>
+            <display value="Never Married"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="W"/>
+            <display value="Widowed"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+            <abstract value="false"/>
+            <inactive value="false"/>
+            <code value="UNK"/>
+            <display value="unknown"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.dk/fhir/core/CodeSystem/dk-marital-status"/>
+            <code value="P"/>
+            <display value="Registered partnership"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.dk/fhir/core/CodeSystem/dk-marital-status"/>
+            <code value="O"/>
+            <display value="Dissolved partnership"/>
           </contains>
         </expansion>
       </ValueSet>

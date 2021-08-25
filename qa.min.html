@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 2, warn = 16, info = 8 -->
+<!-- broken links = 0, errors = 2, warn = 13, info = 8 -->
 <head>
   <title>DK_Core : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -23,7 +23,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for DK_Core</h1>
- <p>Generated Mon Aug 16 14:38:01 UTC 2021, FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = <a href="http://hl7.dk/fhir/core">http://hl7.dk/fhir/core</a> (<a href="http://hl7.dk/fhir/core/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
+ <p>Generated Wed Aug 25 13:20:34 UTC 2021, FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = <a href="http://hl7.dk/fhir/core">http://hl7.dk/fhir/core</a> (<a href="http://hl7.dk/fhir/core/history.html">history</a>)). See <a href="/github/workspace/output/qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.77</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = dk.fhir.ig.dk-core, Canonical = http://hl7.dk/fhir/core</td></tr>
@@ -37,7 +37,7 @@
  <br/><br/>The copyrightYear parameter ('2021+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.dk/fhir/core (Problem #1 with package-list.json at http://hl7.dk/fhir/core: hl7.dk)</td></tr>
- <tr><td>Summary:</td><td> broken links = 0, errors = 2, warn = 16, info = 8</td></tr>
+ <tr><td>Summary:</td><td> broken links = 0, errors = 2, warn = 13, info = 8</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -59,9 +59,6 @@
      <td><a href="#_github_workspace_fsh-generated_resources_NamingSystem-sor"><b>/github/workspace/fsh-generated/resources/NamingSystem-sor</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_Patient-mogensen"><b>/github/workspace/fsh-generated/resources/Patient-mogensen</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
-   </tr>
-   <tr style="background-color: #EFFFEF">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-dk-core-authorization-identifier"><b>/github/workspace/fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
@@ -71,7 +68,7 @@
      <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-dk-core-cpr-identifier-system"><b>/github/workspace/fsh-generated/resources/ValueSet-dk-core-cpr-identifier-system</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-dk-marital-status"><b>/github/workspace/fsh-generated/resources/ValueSet-dk-marital-status</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>2</b></td>
+     <td><a href="#_github_workspace_fsh-generated_resources_ValueSet-dk-marital-status"><b>/github/workspace/fsh-generated/resources/ValueSet-dk-marital-status</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
    </tr>
 </table>
 <hr/>
@@ -159,22 +156,6 @@
    </tr>
 </table>
 <hr/>
-<a name="_github_workspace_fsh-generated_resources_Patient-mogensen"> </a>
-<h2><a href="Patient-mogensen.html">/github/workspace/fsh-generated/resources/Patient-mogensen.json</a></h2>
- <ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-dk-core-patient.html">Danish Core Patient Profile</a></li></ul>
-
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Patient.maritalStatus (l30/c16)</b></td><td><b>warning</b></td><td title="[Unable to determine whether the provided codes are in the value set http://hl7.dk/fhir/core/ValueSet/dk-marital-status because the value set or code system is not known to the validator]"><b>[Unable to determine whether the provided codes are in the value set http://hl7.dk/fhir/core/ValueSet/dk-marital-status because the value set or code system is not known to the validator]</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Patient.maritalStatus.coding[0] (l31/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://hl7.dk/fhir/CodeSystem/dk-marital-status' is unknown so the code cannot be validated</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-dk-core-authorization-identifier"> </a>
 <h2><a href="StructureDefinition-dk-core-authorization-identifier.html">/github/workspace/fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier.json</a></h2>
  <ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
@@ -230,12 +211,6 @@
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>ValueSet.compose.include[1].concept[1].designation[0].language</b></td><td><b>information</b></td><td title="Terminology_TX_NoValid_18"><b>The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[1]</b></td><td><b>warning</b></td><td title=""><b>Unknown System specified, so Concepts and Filters can''t be checked</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'dk-marital-status')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system http://hl7.dk/fhir/CodeSystem/dk-marital-status</b></td>
    </tr>
 </table>
 <a name="suppressed"> </a>
