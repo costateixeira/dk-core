@@ -38,7 +38,8 @@
     "id": "dk-marital-status",
     "type": "CodeSystem",
     "url": "http://hl7.dk/fhir/core/CodeSystem/dk-marital-status",
-    "version": "0.9.0"
+    "version": "0.9.0",
+    "name": "DK Marital Status Codes"
   },
   {
     "id": "dk.fhir.ig.dk-core",

@@ -7,6 +7,7 @@
   </text>
   <url value="http://hl7.dk/fhir/core/CodeSystem/dk-marital-status"/>
   <version value="0.9.0"/>
+  <name value="DK Marital Status Codes"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2019-01-29T00:00:00+00:00"/>
