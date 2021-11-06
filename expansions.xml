@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="4fb44edd-6b9e-40fa-a9e0-a1dca0c63ab4"/>
+  <id value="3f65fb5e-d0af-4367-99d8-e26b7bff309c"/>
   <meta>
-    <lastUpdated value="2021-11-06T16:21:54.332+00:00"/>
+    <lastUpdated value="2021-11-06T18:02:33.569+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -74,8 +74,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:ad996309-506b-4025-95ac-61721adaffd3"/>
-          <timestamp value="2021-11-06T16:22:04+00:00"/>
+          <identifier value="urn:uuid:e0730183-db17-43f1-b1e2-41de3d326b0c"/>
+          <timestamp value="2021-11-06T18:02:46+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1095,8 +1095,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:c9b72998-2da9-41f5-af8b-73c93eaa5bd9"/>
-          <timestamp value="2021-11-06T16:22:04+00:00"/>
+          <identifier value="urn:uuid:e7a22683-b4dd-43a7-8369-97b531accff0"/>
+          <timestamp value="2021-11-06T18:02:46+00:00"/>
           <total value="104"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1733,8 +1733,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:cd09bd5c-69c1-4e78-b9b4-36d8285452a4"/>
-          <timestamp value="2021-11-06T16:22:04+00:00"/>
+          <identifier value="urn:uuid:7fe14a8b-5726-4786-ae7b-7f590370d029"/>
+          <timestamp value="2021-11-06T18:02:46+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1978,8 +1978,8 @@ This definition was based on https://www.merriam-webster.com/dictionary/common-l
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:ed13fbfc-c8d5-4aaf-a702-58ede705169e"/>
-          <timestamp value="2021-11-06T16:22:04+00:00"/>
+          <identifier value="urn:uuid:0f038fc6-e08d-47ab-beaf-7e1390fc8ca0"/>
+          <timestamp value="2021-11-06T18:02:47+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
