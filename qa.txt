@@ -2,9 +2,8 @@
 =========================================
 
 err = 2, warn = 13, info = 8
-IG Publisher Version: 1.1.77
-Generated Mon Aug 30 14:28:14 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = http://hl7.dk/fhir/core)
-
+IG Publisher Version: 1.1.84
+Generated Sat Nov 06 16:18:08 UTC 2021. FHIR version 4.0.1 for dk.fhir.ig.dk-core#0.9.0 (canonical = http://hl7.dk/fhir/core)
  Build Errors : 1 / 6 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-administrative-gender-supplement : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/CodeSystem-dk-core-cpr-identifier-system : 0 / 0 / 1
@@ -39,43 +38,43 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/dk-core-sor-identifier.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/dk-core-municipalityCodes.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/dk-core-RegionalSubDivisionCodes.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-== /github/workspace/fsh-generated/resources/CodeSystem-administrative-gender-supplement.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-dk-core-cpr-identifier-system.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-dk-core-municipality-codes.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-dk-core-municipality-codes-greenland.json ==
-== /github/workspace/fsh-generated/resources/CodeSystem-dk-core-regional-subdivision-codes.json ==
+== fsh-generated/resources/CodeSystem-administrative-gender-supplement.json ==
+== fsh-generated/resources/CodeSystem-dk-core-cpr-identifier-system.json ==
+== fsh-generated/resources/CodeSystem-dk-core-municipality-codes.json ==
+== fsh-generated/resources/CodeSystem-dk-core-municipality-codes-greenland.json ==
+== fsh-generated/resources/CodeSystem-dk-core-regional-subdivision-codes.json ==
 WARNING: CodeSystem/dk-core-regional-subdivision-codes: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== /github/workspace/fsh-generated/resources/CodeSystem-dk-marital-status.json ==
+== fsh-generated/resources/CodeSystem-dk-marital-status.json ==
 WARNING: CodeSystem/dk-marital-status: CodeSystem: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: CodeSystem/dk-marital-status: CodeSystem.concept[0].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: CodeSystem/dk-marital-status: CodeSystem.concept[1].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
-== /github/workspace/fsh-generated/resources/ImplementationGuide-dk.fhir.ig.dk-core.json ==
-== /github/workspace/fsh-generated/resources/NamingSystem-cpr.json ==
+== fsh-generated/resources/ImplementationGuide-dk.fhir.ig.dk-core.json ==
+== fsh-generated/resources/NamingSystem-cpr.json ==
 ERROR: NamingSystem/cpr: NamingSystem.type.coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/v2-0203#NNDNK in http://terminology.hl7.org/CodeSystem/v2-0203 for 'http://terminology.hl7.org/CodeSystem/v2-0203#NNDNK'
-== /github/workspace/fsh-generated/resources/NamingSystem-sor.json ==
+== fsh-generated/resources/NamingSystem-sor.json ==
 WARNING: NamingSystem/sor: NamingSystem: nsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== /github/workspace/fsh-generated/resources/Patient-283.json ==
-== /github/workspace/fsh-generated/resources/Patient-bubber.json ==
+== fsh-generated/resources/Patient-283.json ==
+== fsh-generated/resources/Patient-bubber.json ==
 INFORMATION: Patient/bubber: Patient.name[1]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
-== /github/workspace/fsh-generated/resources/Patient-mogensen.json ==
+== fsh-generated/resources/Patient-mogensen.json ==
 INFORMATION: Patient/mogensen: Patient.maritalStatus.coding[0]: Code System URI 'http://hl7.dk/fhir/CodeSystem/dk-marital-status' is unknown so the code cannot be validated
-== /github/workspace/fsh-generated/resources/Patient-ukendt.json ==
+== fsh-generated/resources/Patient-ukendt.json ==
 INFORMATION: Patient/ukendt: Patient.identifier[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
 INFORMATION: Patient/ukendt: Patient.name[0]: This element does not match any known slice defined in the profile http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-RegionalSubDivisionCodes.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-RegionalSubDivisionCodes.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-authorization-identifier.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.dk/fhir/core/StructureDefinition/dk-core-authorization-identifier'): The Implementation Guide contains no examples for this data type profile
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-cpr-identifier.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-municipalityCodes.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-patient.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-dk-core-sor-identifier.json ==
-== /github/workspace/fsh-generated/resources/StructureDefinition-lpr3-Identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-cpr-identifier.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-municipalityCodes.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-patient.json ==
+== fsh-generated/resources/StructureDefinition-dk-core-sor-identifier.json ==
+== fsh-generated/resources/StructureDefinition-lpr3-Identifier.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.dk/fhir/core/StructureDefinition/lpr3-Identifier'): The Implementation Guide contains no examples for this data type profile
-== /github/workspace/fsh-generated/resources/ValueSet-dk-core-MunicipalityCodes.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-dk-core-RegionalSubDivisionCodes.json ==
-== /github/workspace/fsh-generated/resources/ValueSet-dk-core-cpr-identifier-system.json ==
+== fsh-generated/resources/ValueSet-dk-core-MunicipalityCodes.json ==
+== fsh-generated/resources/ValueSet-dk-core-RegionalSubDivisionCodes.json ==
+== fsh-generated/resources/ValueSet-dk-core-cpr-identifier-system.json ==
 WARNING: ValueSet/dk-core-cpr-identifier-system: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== /github/workspace/fsh-generated/resources/ValueSet-dk-marital-status.json ==
+== fsh-generated/resources/ValueSet-dk-marital-status.json ==
 WARNING: ValueSet/dk-marital-status: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: ValueSet/dk-marital-status: ValueSet.compose.include[1].concept[0].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))
 INFORMATION: ValueSet/dk-marital-status: ValueSet.compose.include[1].concept[1].designation[0].language: The value provided ('da-DK') is not in the value set http://hl7.org/fhir/ValueSet/languages (http://hl7.org/fhir/ValueSet/languages), and a code is recommended to come from this value set) (error message = The code provided (urn:ietf:bcp:47#da-DK) is not valid in the value set 'CommonLanguages' (from http://tx.fhir.org/r4))

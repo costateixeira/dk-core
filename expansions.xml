@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8579bf6d-ac27-4d2d-9df0-8923b55e55e1"/>
+  <id value="b33d28ea-3193-4fa9-8390-ed5809c07189"/>
   <meta>
-    <lastUpdated value="2021-08-30T14:27:53.849+00:00"/>
+    <lastUpdated value="2021-11-06T16:17:50.305+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,7 +18,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-dk-core-cpr-identifier-system.html">DkCoreCprIdentifierSystem v0.9.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-dk-core-cpr-identifier-system.html">
                 <code>http://hl7.dk/fhir/core/CodeSystem/dk-core-cpr-identifier-system</code>
               </a>
@@ -74,8 +74,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:76bb39ad-d46f-48ab-8b32-2a0664150f04"/>
-          <timestamp value="2021-08-30T14:28:07+00:00"/>
+          <identifier value="urn:uuid:d77b0a32-6bf6-437e-9778-27f6f16cd11a"/>
+          <timestamp value="2021-11-06T16:18:01+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1095,8 +1095,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:2bc4c86b-0b89-448d-af94-ee36449f9121"/>
-          <timestamp value="2021-08-30T14:28:07+00:00"/>
+          <identifier value="urn:uuid:532dc29e-24dc-4a33-99f0-3442fcafb833"/>
+          <timestamp value="2021-11-06T16:18:01+00:00"/>
           <total value="104"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1118,7 +1118,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0741"/>
-            <display value="Sams&#xF8;"/>
+            <display value="Samsø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1138,22 +1138,22 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0260"/>
-            <display value="Halsn&#xE6;s"/>
+            <display value="Halsnæs"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0153"/>
-            <display value="Br&#xF8;ndby"/>
+            <display value="Brøndby"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0370"/>
-            <display value="N&#xE6;stved"/>
+            <display value="Næstved"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0155"/>
-            <display value="Drag&#xF8;r"/>
+            <display value="Dragør"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1183,7 +1183,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0269"/>
-            <display value="Solr&#xF8;d"/>
+            <display value="Solrød"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1193,7 +1193,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0201"/>
-            <display value="Aller&#xF8;d"/>
+            <display value="Allerød"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1208,7 +1208,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0316"/>
-            <display value="Holb&#xE6;k"/>
+            <display value="Holbæk"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1218,7 +1218,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0860"/>
-            <display value="Hj&#xF8;rring"/>
+            <display value="Hjørring"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1253,17 +1253,17 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0492"/>
-            <display value="&#xC6;r&#xF8;"/>
+            <display value="Ærø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0169"/>
-            <display value="H&#xF8;je-Taastrup"/>
+            <display value="Høje-Taastrup"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0101"/>
-            <display value="K&#xF8;benhavn"/>
+            <display value="København"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1283,12 +1283,12 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0540"/>
-            <display value="S&#xF8;nderborg"/>
+            <display value="Sønderborg"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0217"/>
-            <display value="Helsing&#xF8;r"/>
+            <display value="Helsingør"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1298,12 +1298,12 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0219"/>
-            <display value="Hiller&#xF8;d"/>
+            <display value="Hillerød"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0760"/>
-            <display value="Ringk&#xF8;bing-Skjern"/>
+            <display value="Ringkøbing-Skjern"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1323,7 +1323,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0173"/>
-            <display value="Lyngby-Taarb&#xE6;k"/>
+            <display value="Lyngby-Taarbæk"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1333,12 +1333,12 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0175"/>
-            <display value="R&#xF8;dovre"/>
+            <display value="Rødovre"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0810"/>
-            <display value="Br&#xF8;nderslev"/>
+            <display value="Brønderslev"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1363,7 +1363,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0223"/>
-            <display value="H&#xF8;rsholm"/>
+            <display value="Hørsholm"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1373,7 +1373,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0550"/>
-            <display value="T&#xF8;nder"/>
+            <display value="Tønder"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1393,7 +1393,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0773"/>
-            <display value="Mors&#xF8;"/>
+            <display value="Morsø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1403,12 +1403,12 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0183"/>
-            <display value="Ish&#xF8;j"/>
+            <display value="Ishøj"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0185"/>
-            <display value="T&#xE5;rnby"/>
+            <display value="Tårnby"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1418,7 +1418,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0187"/>
-            <display value="Vallensb&#xE6;k"/>
+            <display value="Vallensbæk"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1433,7 +1433,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0825"/>
-            <display value="L&#xE6;s&#xF8;"/>
+            <display value="Læsø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1443,7 +1443,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0340"/>
-            <display value="Sor&#xF8;"/>
+            <display value="Sorø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1458,7 +1458,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0563"/>
-            <display value="Fan&#xF8;"/>
+            <display value="Fanø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1468,7 +1468,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0190"/>
-            <display value="Fures&#xF8;"/>
+            <display value="Furesø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1578,7 +1578,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0259"/>
-            <display value="K&#xF8;ge"/>
+            <display value="Køge"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1593,7 +1593,7 @@
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
             <code value="0411"/>
-            <display value="Christians&#xF8;"/>
+            <display value="Christiansø"/>
           </contains>
           <contains>
             <system value="http://hl7.dk/fhir/core/CodeSystem/dk-core-municipality-codes"/>
@@ -1646,7 +1646,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-dk-core-regional-subdivision-codes.html">Regional subdivision codes v0.9.0 (CodeSystem)</a>
             </p>
-            <p>All codes from system 
+            <p>All codes in this table are from the system 
               <a href="CodeSystem-dk-core-regional-subdivision-codes.html">
                 <code>http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes</code>
               </a>
@@ -1733,8 +1733,8 @@
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:bc31e6cc-2a13-458d-8e45-ccaf20af1d3c"/>
-          <timestamp value="2021-08-30T14:28:07+00:00"/>
+          <identifier value="urn:uuid:2fd6ec26-2bad-40f2-8397-2c28db3c2302"/>
+          <timestamp value="2021-11-06T16:18:01+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1978,8 +1978,8 @@ This definition was based on https://www.merriam-webster.com/dictionary/common-l
         </jurisdiction>
         <copyright value="CC-BY-SA-4.0"/>
         <expansion>
-          <identifier value="urn:uuid:125d17fe-f015-4f4d-b8b8-2546f9201860"/>
-          <timestamp value="2021-08-30T14:28:07+00:00"/>
+          <identifier value="urn:uuid:1c0379fe-4da2-41d0-a8be-be9a803f6381"/>
+          <timestamp value="2021-11-06T16:18:01+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>

@@ -30,6 +30,6 @@
       <system value="urn:oid:1.2.208.176.1.1"/>
       <value value="487341000016005"/>
     </identifier>
-    <display value="Charlottenlund L&#xE6;gehus"/>
+    <display value="Charlottenlund Lægehus"/>
   </generalPractitioner>
 </Patient>

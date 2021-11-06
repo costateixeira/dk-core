@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "8579bf6d-ac27-4d2d-9df0-8923b55e55e1",
+  "id" : "b33d28ea-3193-4fa9-8390-ed5809c07189",
   "meta" : {
-    "lastUpdated" : "2021-08-30T14:27:53.849+00:00"
+    "lastUpdated" : "2021-11-06T16:17:50.305+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -12,7 +12,7 @@
       "id" : "dk-core-cpr-identifier-system",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-dk-core-cpr-identifier-system.html\">DkCoreCprIdentifierSystem v0.9.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-dk-core-cpr-identifier-system.html\"><code>http://hl7.dk/fhir/core/CodeSystem/dk-core-cpr-identifier-system</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-cpr-identifier-system-urn-oid-1.2.208.176.1.2\"> </a><a href=\"CodeSystem-dk-core-cpr-identifier-system.html#dk-core-cpr-identifier-system-urn.58oid.581.462.46208.46176.461.462\">urn:oid:1.2.208.176.1.2</a></td><td>OID representation of CPR</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-dk-core-cpr-identifier-system.html\">DkCoreCprIdentifierSystem v0.9.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-dk-core-cpr-identifier-system.html\"><code>http://hl7.dk/fhir/core/CodeSystem/dk-core-cpr-identifier-system</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-cpr-identifier-system-urn-oid-1.2.208.176.1.2\"> </a><a href=\"CodeSystem-dk-core-cpr-identifier-system.html#dk-core-cpr-identifier-system-urn.58oid.581.462.46208.46176.461.462\">urn:oid:1.2.208.176.1.2</a></td><td>OID representation of CPR</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.dk/fhir/core/ValueSet/dk-core-cpr-identifier-system",
       "version" : "0.9.0",
@@ -42,8 +42,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:76bb39ad-d46f-48ab-8b32-2a0664150f04",
-        "timestamp" : "2021-08-30T14:28:07+00:00",
+        "identifier" : "urn:uuid:d77b0a32-6bf6-437e-9778-27f6f16cd11a",
+        "timestamp" : "2021-11-06T16:18:01+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -97,8 +97,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:2bc4c86b-0b89-448d-af94-ee36449f9121",
-        "timestamp" : "2021-08-30T14:28:07+00:00",
+        "identifier" : "urn:uuid:532dc29e-24dc-4a33-99f0-3442fcafb833",
+        "timestamp" : "2021-11-06T16:18:01+00:00",
         "total" : 104,
         "parameter" : [{
           "name" : "excludeNested",
@@ -642,7 +642,7 @@
       "id" : "dk-core-RegionalSubDivisionCodes",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-dk-core-regional-subdivision-codes.html\">Regional subdivision codes v0.9.0 (CodeSystem)</a></p><p>All codes from system <a href=\"CodeSystem-dk-core-regional-subdivision-codes.html\"><code>http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-84\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-84\">DK-84</a></td><td>Capital Region of Denmark</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-82\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-82\">DK-82</a></td><td>Central Denmark Region</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-81\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-81\">DK-81</a></td><td>Nord Denmark Region</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-85\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-85\">DK-85</a></td><td>Region Zealand</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-83\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-83\">DK-83</a></td><td>Region of Southern Denmark</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 5 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-dk-core-regional-subdivision-codes.html\">Regional subdivision codes v0.9.0 (CodeSystem)</a></p><p>All codes in this table are from the system <a href=\"CodeSystem-dk-core-regional-subdivision-codes.html\"><code>http://hl7.dk/fhir/core/CodeSystem/dk-core-regional-subdivision-codes</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-84\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-84\">DK-84</a></td><td>Capital Region of Denmark</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-82\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-82\">DK-82</a></td><td>Central Denmark Region</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-81\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-81\">DK-81</a></td><td>Nord Denmark Region</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-85\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-85\">DK-85</a></td><td>Region Zealand</td><td/></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.dk-fhir-core-CodeSystem-dk-core-regional-subdivision-codes-DK-83\"> </a><a href=\"CodeSystem-dk-core-regional-subdivision-codes.html#dk-core-regional-subdivision-codes-DK-83\">DK-83</a></td><td>Region of Southern Denmark</td><td/></tr></table></div>"
       },
       "url" : "http://hl7.dk/fhir/core/ValueSet/dk-core-RegionalSubDivisionCodes",
       "version" : "0.9.0",
@@ -671,8 +671,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:bc31e6cc-2a13-458d-8e45-ccaf20af1d3c",
-        "timestamp" : "2021-08-30T14:28:07+00:00",
+        "identifier" : "urn:uuid:2fd6ec26-2bad-40f2-8397-2c28db3c2302",
+        "timestamp" : "2021-11-06T16:18:01+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -747,8 +747,8 @@
       }],
       "copyright" : "CC-BY-SA-4.0",
       "expansion" : {
-        "identifier" : "urn:uuid:125d17fe-f015-4f4d-b8b8-2546f9201860",
-        "timestamp" : "2021-08-30T14:28:07+00:00",
+        "identifier" : "urn:uuid:1c0379fe-4da2-41d0-a8be-be9a803f6381",
+        "timestamp" : "2021-11-06T16:18:01+00:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",

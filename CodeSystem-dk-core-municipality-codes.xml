@@ -43,10 +43,10 @@
   </concept>
   <concept>
     <code value="0741"/>
-    <display value="Sams&#xF8;"/>
+    <display value="Samsø"/>
     <designation>
       <language value="da"/>
-      <value value="Sams&#xF8;"/>
+      <value value="Samsø"/>
     </designation>
   </concept>
   <concept>
@@ -75,34 +75,34 @@
   </concept>
   <concept>
     <code value="0260"/>
-    <display value="Halsn&#xE6;s"/>
+    <display value="Halsnæs"/>
     <designation>
       <language value="da"/>
-      <value value="Halsn&#xE6;s"/>
+      <value value="Halsnæs"/>
     </designation>
   </concept>
   <concept>
     <code value="0153"/>
-    <display value="Br&#xF8;ndby"/>
+    <display value="Brøndby"/>
     <designation>
       <language value="da"/>
-      <value value="Br&#xF8;ndby"/>
+      <value value="Brøndby"/>
     </designation>
   </concept>
   <concept>
     <code value="0370"/>
-    <display value="N&#xE6;stved"/>
+    <display value="Næstved"/>
     <designation>
       <language value="da"/>
-      <value value="N&#xE6;stved"/>
+      <value value="Næstved"/>
     </designation>
   </concept>
   <concept>
     <code value="0155"/>
-    <display value="Drag&#xF8;r"/>
+    <display value="Dragør"/>
     <designation>
       <language value="da"/>
-      <value value="Drag&#xF8;r"/>
+      <value value="Dragør"/>
     </designation>
   </concept>
   <concept>
@@ -147,10 +147,10 @@
   </concept>
   <concept>
     <code value="0269"/>
-    <display value="Solr&#xF8;d"/>
+    <display value="Solrød"/>
     <designation>
       <language value="da"/>
-      <value value="Solr&#xF8;d"/>
+      <value value="Solrød"/>
     </designation>
   </concept>
   <concept>
@@ -163,10 +163,10 @@
   </concept>
   <concept>
     <code value="0201"/>
-    <display value="Aller&#xF8;d"/>
+    <display value="Allerød"/>
     <designation>
       <language value="da"/>
-      <value value="Aller&#xF8;d"/>
+      <value value="Allerød"/>
     </designation>
   </concept>
   <concept>
@@ -187,10 +187,10 @@
   </concept>
   <concept>
     <code value="0316"/>
-    <display value="Holb&#xE6;k"/>
+    <display value="Holbæk"/>
     <designation>
       <language value="da"/>
-      <value value="Holb&#xE6;k"/>
+      <value value="Holbæk"/>
     </designation>
   </concept>
   <concept>
@@ -203,10 +203,10 @@
   </concept>
   <concept>
     <code value="0860"/>
-    <display value="Hj&#xF8;rring"/>
+    <display value="Hjørring"/>
     <designation>
       <language value="da"/>
-      <value value="Hj&#xF8;rring"/>
+      <value value="Hjørring"/>
     </designation>
   </concept>
   <concept>
@@ -259,26 +259,26 @@
   </concept>
   <concept>
     <code value="0492"/>
-    <display value="&#xC6;r&#xF8;"/>
+    <display value="Ærø"/>
     <designation>
       <language value="da"/>
-      <value value="&#xC6;r&#xF8;"/>
+      <value value="Ærø"/>
     </designation>
   </concept>
   <concept>
     <code value="0169"/>
-    <display value="H&#xF8;je-Taastrup"/>
+    <display value="Høje-Taastrup"/>
     <designation>
       <language value="da"/>
-      <value value="H&#xF8;je-Taastrup"/>
+      <value value="Høje-Taastrup"/>
     </designation>
   </concept>
   <concept>
     <code value="0101"/>
-    <display value="K&#xF8;benhavn"/>
+    <display value="København"/>
     <designation>
       <language value="da"/>
-      <value value="K&#xF8;benhavn"/>
+      <value value="København"/>
     </designation>
   </concept>
   <concept>
@@ -307,18 +307,18 @@
   </concept>
   <concept>
     <code value="0540"/>
-    <display value="S&#xF8;nderborg"/>
+    <display value="Sønderborg"/>
     <designation>
       <language value="da"/>
-      <value value="S&#xF8;nderborg"/>
+      <value value="Sønderborg"/>
     </designation>
   </concept>
   <concept>
     <code value="0217"/>
-    <display value="Helsing&#xF8;r"/>
+    <display value="Helsingør"/>
     <designation>
       <language value="da"/>
-      <value value="Helsing&#xF8;r"/>
+      <value value="Helsingør"/>
     </designation>
   </concept>
   <concept>
@@ -331,18 +331,18 @@
   </concept>
   <concept>
     <code value="0219"/>
-    <display value="Hiller&#xF8;d"/>
+    <display value="Hillerød"/>
     <designation>
       <language value="da"/>
-      <value value="Hiller&#xF8;d"/>
+      <value value="Hillerød"/>
     </designation>
   </concept>
   <concept>
     <code value="0760"/>
-    <display value="Ringk&#xF8;bing-Skjern"/>
+    <display value="Ringkøbing-Skjern"/>
     <designation>
       <language value="da"/>
-      <value value="Ringk&#xF8;bing-Skjern"/>
+      <value value="Ringkøbing-Skjern"/>
     </designation>
   </concept>
   <concept>
@@ -371,10 +371,10 @@
   </concept>
   <concept>
     <code value="0173"/>
-    <display value="Lyngby-Taarb&#xE6;k"/>
+    <display value="Lyngby-Taarbæk"/>
     <designation>
       <language value="da"/>
-      <value value="Lyngby-Taarb&#xE6;k"/>
+      <value value="Lyngby-Taarbæk"/>
     </designation>
   </concept>
   <concept>
@@ -387,18 +387,18 @@
   </concept>
   <concept>
     <code value="0175"/>
-    <display value="R&#xF8;dovre"/>
+    <display value="Rødovre"/>
     <designation>
       <language value="da"/>
-      <value value="R&#xF8;dovre"/>
+      <value value="Rødovre"/>
     </designation>
   </concept>
   <concept>
     <code value="0810"/>
-    <display value="Br&#xF8;nderslev"/>
+    <display value="Brønderslev"/>
     <designation>
       <language value="da"/>
-      <value value="Br&#xF8;nderslev"/>
+      <value value="Brønderslev"/>
     </designation>
   </concept>
   <concept>
@@ -435,10 +435,10 @@
   </concept>
   <concept>
     <code value="0223"/>
-    <display value="H&#xF8;rsholm"/>
+    <display value="Hørsholm"/>
     <designation>
       <language value="da"/>
-      <value value="H&#xF8;rsholm"/>
+      <value value="Hørsholm"/>
     </designation>
   </concept>
   <concept>
@@ -451,10 +451,10 @@
   </concept>
   <concept>
     <code value="0550"/>
-    <display value="T&#xF8;nder"/>
+    <display value="Tønder"/>
     <designation>
       <language value="da"/>
-      <value value="T&#xF8;nder"/>
+      <value value="Tønder"/>
     </designation>
   </concept>
   <concept>
@@ -483,10 +483,10 @@
   </concept>
   <concept>
     <code value="0773"/>
-    <display value="Mors&#xF8;"/>
+    <display value="Morsø"/>
     <designation>
       <language value="da"/>
-      <value value="Mors&#xF8;"/>
+      <value value="Morsø"/>
     </designation>
   </concept>
   <concept>
@@ -499,18 +499,18 @@
   </concept>
   <concept>
     <code value="0183"/>
-    <display value="Ish&#xF8;j"/>
+    <display value="Ishøj"/>
     <designation>
       <language value="da"/>
-      <value value="Ish&#xF8;j"/>
+      <value value="Ishøj"/>
     </designation>
   </concept>
   <concept>
     <code value="0185"/>
-    <display value="T&#xE5;rnby"/>
+    <display value="Tårnby"/>
     <designation>
       <language value="da"/>
-      <value value="T&#xE5;rnby"/>
+      <value value="Tårnby"/>
     </designation>
   </concept>
   <concept>
@@ -523,10 +523,10 @@
   </concept>
   <concept>
     <code value="0187"/>
-    <display value="Vallensb&#xE6;k"/>
+    <display value="Vallensbæk"/>
     <designation>
       <language value="da"/>
-      <value value="Vallensb&#xE6;k"/>
+      <value value="Vallensbæk"/>
     </designation>
   </concept>
   <concept>
@@ -547,10 +547,10 @@
   </concept>
   <concept>
     <code value="0825"/>
-    <display value="L&#xE6;s&#xF8;"/>
+    <display value="Læsø"/>
     <designation>
       <language value="da"/>
-      <value value="L&#xE6;s&#xF8;"/>
+      <value value="Læsø"/>
     </designation>
   </concept>
   <concept>
@@ -563,10 +563,10 @@
   </concept>
   <concept>
     <code value="0340"/>
-    <display value="Sor&#xF8;"/>
+    <display value="Sorø"/>
     <designation>
       <language value="da"/>
-      <value value="Sor&#xF8;"/>
+      <value value="Sorø"/>
     </designation>
   </concept>
   <concept>
@@ -587,10 +587,10 @@
   </concept>
   <concept>
     <code value="0563"/>
-    <display value="Fan&#xF8;"/>
+    <display value="Fanø"/>
     <designation>
       <language value="da"/>
-      <value value="Fan&#xF8;"/>
+      <value value="Fanø"/>
     </designation>
   </concept>
   <concept>
@@ -603,10 +603,10 @@
   </concept>
   <concept>
     <code value="0190"/>
-    <display value="Fures&#xF8;"/>
+    <display value="Furesø"/>
     <designation>
       <language value="da"/>
-      <value value="Fures&#xF8;"/>
+      <value value="Furesø"/>
     </designation>
   </concept>
   <concept>
@@ -779,10 +779,10 @@
   </concept>
   <concept>
     <code value="0259"/>
-    <display value="K&#xF8;ge"/>
+    <display value="Køge"/>
     <designation>
       <language value="da"/>
-      <value value="K&#xF8;ge"/>
+      <value value="Køge"/>
     </designation>
   </concept>
   <concept>
@@ -803,10 +803,10 @@
   </concept>
   <concept>
     <code value="0411"/>
-    <display value="Christians&#xF8;"/>
+    <display value="Christiansø"/>
     <designation>
       <language value="da"/>
-      <value value="Christians&#xF8;"/>
+      <value value="Christiansø"/>
     </designation>
   </concept>
   <concept>

@@ -56,6 +56,6 @@
       <system value="urn:oid:1.2.208.176.1.1"/>
       <value value="79641000016006"/>
     </identifier>
-    <display value="Peter S&#xF8;nderby"/>
+    <display value="Peter Sønderby"/>
   </generalPractitioner>
 </Patient>
