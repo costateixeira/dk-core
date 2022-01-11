@@ -37,8 +37,8 @@ if (not(os.path.exists(os.path.join('.','release.json')))):
 with open(os.path.join('.','release.json')) as fd:
     release = json.load(fd)     
 
-
-igrootfolder = os.path.join('..',release['ig'])
+igrootfolder = os.getcwd()
+#igrootfolder = os.path.join('..',release['ig'])
 
 # Variable: release.json.history-template / Default HL7
 
@@ -158,8 +158,8 @@ url_data = ig_url.split(ig_id)
 
 #checks
 ## url_data[2] must exist
-#if url_data[2] != '':
-#    exit(1)
+if url_data[2] != '':
+    exit(1)
 base = url_data[0]
 ig_canonical = url_data[0]+ig_id
 
@@ -370,4 +370,5 @@ if (keep_release_token):
       os. remove(os.path.join('.','release.json'))
 
 exit(0)
+
 
